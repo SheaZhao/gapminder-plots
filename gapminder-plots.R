@@ -7,5 +7,5 @@ library(ggplot2)
 head(gapminder)
 
 ggplot(gapminder, aes(gdpPercap, lifeExp)) +
-    geom_point()
+    geom_point() + scale_x_log10() + geom_smooth()
 
