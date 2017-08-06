@@ -8,3 +8,4 @@ head(gapminder)
 
 ggplot(gapminder, aes(gdpPercap, lifeExp)) +
     geom_point()
+
